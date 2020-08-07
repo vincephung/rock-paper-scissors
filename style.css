@@ -1,0 +1,29 @@
+body{
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+
+.scores{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap: 50px;
+    margin: 50px;
+}
+
+.user-score, .computer-score{
+    border: 1px solid white;
+    padding: 30px;
+    width: 300px;
+}
+
+.current-score{
+    color: #69DC9E;
+    font-family: 'Lato',sans-serif;
+    font-weight: 900;
+}
+
+#u-score, #c-score{
+    font-size: 1.5em;
+}
